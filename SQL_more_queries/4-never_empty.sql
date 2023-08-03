@@ -1,5 +1,4 @@
--- A script that creates a table called first_table in the current database in your MySQL server
--- Query to create a table
-CREATE TABLE IF NOT EXISTS first_table (
-	id INT,
-	name VARCHAR(256));
+-- ID can't be null
+
+
+CREATE TABLE IF NOT EXISTS id_not_null (id INT DEFAULT 1, name VARCHAR(256));
