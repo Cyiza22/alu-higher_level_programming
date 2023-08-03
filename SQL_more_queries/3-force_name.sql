@@ -1,3 +1,4 @@
--- A script that lists all the tables of a database in your MySQL server
--- Query to list all the tables of a database
-SHOW TABLES;
+-- Always a name
+
+
+CREATE TABLE IF NOT EXISTS force_name (id INT, name VARCHAR(256) NOT NULL);
